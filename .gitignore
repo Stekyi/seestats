@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+apps/mobile/dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+.wrangler/
+logs/
+__pycache__/
+*.pyc

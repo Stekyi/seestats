@@ -1,0 +1,20 @@
+{
+  "name": "see-stats",
+  "private": true,
+  "version": "1.0.0",
+  "description": "See Stats — global investment and trade intelligence, starting with Ghana.",
+  "scripts": {
+    "dev": "npm --workspace apps/mobile start",
+    "web": "npm --workspace apps/mobile run web",
+    "export": "npm --workspace apps/mobile run export",
+    "typecheck": "npm --workspace apps/mobile run typecheck",
+    "deploy": "npm run export && wrangler pages deploy apps/mobile/dist --project-name see-stats",
+    "pages:dev": "wrangler pages dev apps/mobile/dist --compatibility-date=2026-08-15",
+    "db:migrate": "wrangler d1 migrations apply SEE_STATS_DB --remote",
+    "db:migrate:local": "wrangler d1 migrations apply SEE_STATS_DB --local"
+  },
+  "workspaces": ["apps/mobile"],
+  "devDependencies": {
+    "wrangler": "^4.29.0"
+  }
+}

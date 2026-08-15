@@ -1,0 +1,13 @@
+name = "see-stats"
+compatibility_date = "2026-08-15"
+pages_build_output_dir = "apps/mobile/dist"
+
+[[d1_databases]]
+binding = "SEE_STATS_DB"
+database_name = "see-stats"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+APP_NAME = "See Stats"
+OTP_TTL_MINUTES = "10"
+ACCESS_TTL_DAYS = "3"

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "See Stats",
+    "slug": "see-stats",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "seestats",
+    "userInterfaceStyle": "automatic",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.seestats.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.seestats.app"
+    }
+  }
+}

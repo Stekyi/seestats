@@ -1,0 +1,1017 @@
+{
+  "analysis_date": "2026-07-03",
+  "budget_ghc": 100000,
+  "budget_usd": 6494.0,
+  "import_opportunities": [
+    {
+      "commodity": "Rice",
+      "type": "import_opportunity",
+      "score": 70,
+      "margin_pct": 22,
+      "margin_flag": "yellow",
+      "ghana_import_usd_m": 487.0,
+      "yoy_growth_pct": 23.0,
+      "best_supplier": "India",
+      "best_price_usd_mt": 290,
+      "all_suppliers": [
+        {
+          "country": "India",
+          "price_usd_mt": 290,
+          "distance": "medium"
+        },
+        {
+          "country": "Vietnam",
+          "price_usd_mt": 310,
+          "distance": "far"
+        },
+        {
+          "country": "Thailand",
+          "price_usd_mt": 350,
+          "distance": "far"
+        }
+      ],
+      "est_order_qty_mt": 13.4,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "gap_size": 30,
+        "growth": 19.2,
+        "margin": 5.0,
+        "logistics": 6,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Poultry",
+      "type": "import_opportunity",
+      "score": 65,
+      "margin_pct": 30,
+      "margin_flag": "green",
+      "ghana_import_usd_m": 281.0,
+      "yoy_growth_pct": 18.0,
+      "best_supplier": "Brazil",
+      "best_price_usd_mt": 1800,
+      "all_suppliers": [
+        {
+          "country": "Brazil",
+          "price_usd_mt": 1800,
+          "distance": "far"
+        },
+        {
+          "country": "EU",
+          "price_usd_mt": 2100,
+          "distance": "medium"
+        },
+        {
+          "country": "USA",
+          "price_usd_mt": 1950,
+          "distance": "far"
+        }
+      ],
+      "est_order_qty_mt": 2.2,
+      "est_order_ghc": 60000,
+      "budget_fit": false,
+      "score_breakdown": {
+        "gap_size": 17.3,
+        "growth": 15.0,
+        "margin": 25,
+        "logistics": 3,
+        "budget_fit": 4.3
+      }
+    },
+    {
+      "commodity": "Vegetable oils",
+      "type": "import_opportunity",
+      "score": 49,
+      "margin_pct": 26,
+      "margin_flag": "yellow",
+      "ghana_import_usd_m": 203.0,
+      "yoy_growth_pct": 11.0,
+      "best_supplier": "Malaysia",
+      "best_price_usd_mt": 820,
+      "all_suppliers": [
+        {
+          "country": "Malaysia",
+          "price_usd_mt": 820,
+          "distance": "far"
+        },
+        {
+          "country": "Indonesia",
+          "price_usd_mt": 790,
+          "distance": "far"
+        },
+        {
+          "country": "Senegal",
+          "price_usd_mt": 950,
+          "distance": "near"
+        }
+      ],
+      "est_order_qty_mt": 4.8,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "gap_size": 12.5,
+        "growth": 9.2,
+        "margin": 15.0,
+        "logistics": 3,
+        "budget_fit": 9.5
+      }
+    },
+    {
+      "commodity": "Tomato paste",
+      "type": "import_opportunity",
+      "score": 45,
+      "margin_pct": 24,
+      "margin_flag": "yellow",
+      "ghana_import_usd_m": 147.0,
+      "yoy_growth_pct": 15.0,
+      "best_supplier": "China",
+      "best_price_usd_mt": 650,
+      "all_suppliers": [
+        {
+          "country": "China",
+          "price_usd_mt": 650,
+          "distance": "far"
+        },
+        {
+          "country": "Turkey",
+          "price_usd_mt": 780,
+          "distance": "medium"
+        },
+        {
+          "country": "Italy",
+          "price_usd_mt": 1100,
+          "distance": "medium"
+        }
+      ],
+      "est_order_qty_mt": 6.0,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "gap_size": 9.1,
+        "growth": 12.5,
+        "margin": 10.0,
+        "logistics": 3,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Sugar",
+      "type": "import_opportunity",
+      "score": 32,
+      "margin_pct": 0,
+      "margin_flag": "red",
+      "ghana_import_usd_m": 182.0,
+      "yoy_growth_pct": 9.0,
+      "best_supplier": "Brazil",
+      "best_price_usd_mt": 380,
+      "all_suppliers": [
+        {
+          "country": "Brazil",
+          "price_usd_mt": 380,
+          "distance": "far"
+        },
+        {
+          "country": "India",
+          "price_usd_mt": 360,
+          "distance": "medium"
+        },
+        {
+          "country": "Thailand",
+          "price_usd_mt": 395,
+          "distance": "far"
+        }
+      ],
+      "est_order_qty_mt": 10.3,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "gap_size": 11.2,
+        "growth": 7.5,
+        "margin": 0,
+        "logistics": 3,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Wheat flour",
+      "type": "import_opportunity",
+      "score": 29,
+      "margin_pct": 0,
+      "margin_flag": "red",
+      "ghana_import_usd_m": 124.0,
+      "yoy_growth_pct": 7.0,
+      "best_supplier": "Turkey",
+      "best_price_usd_mt": 290,
+      "all_suppliers": [
+        {
+          "country": "Turkey",
+          "price_usd_mt": 290,
+          "distance": "medium"
+        },
+        {
+          "country": "USA",
+          "price_usd_mt": 320,
+          "distance": "far"
+        },
+        {
+          "country": "EU",
+          "price_usd_mt": 310,
+          "distance": "medium"
+        }
+      ],
+      "est_order_qty_mt": 13.4,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "gap_size": 7.6,
+        "growth": 5.8,
+        "margin": 0,
+        "logistics": 6,
+        "budget_fit": 10
+      }
+    }
+  ],
+  "export_opportunities": [
+    {
+      "commodity": "Shea butter",
+      "type": "export_opportunity",
+      "score": 84,
+      "margin_pct": 45,
+      "margin_flag": "green",
+      "ghana_export_usd_m": 174.0,
+      "yoy_growth_pct": 116.0,
+      "best_market": "Netherlands",
+      "market_demand_growth_pct": 25,
+      "price_premium": "high",
+      "all_markets": [
+        {
+          "country": "Netherlands",
+          "demand_growth_pct": 25,
+          "price_premium": "high"
+        },
+        {
+          "country": "France",
+          "demand_growth_pct": 20,
+          "price_premium": "high"
+        },
+        {
+          "country": "South Korea",
+          "demand_growth_pct": 30,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 750,
+      "est_order_qty_mt": 5.2,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 17.5,
+        "growth": 24.2,
+        "margin": 25,
+        "market_demand": 7.1,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Cashew nuts",
+      "type": "export_opportunity",
+      "score": 56,
+      "margin_pct": 28,
+      "margin_flag": "yellow",
+      "ghana_export_usd_m": 298.0,
+      "yoy_growth_pct": 10.2,
+      "best_market": "India",
+      "market_demand_growth_pct": 12,
+      "price_premium": "medium",
+      "all_markets": [
+        {
+          "country": "India",
+          "demand_growth_pct": 12,
+          "price_premium": "medium"
+        },
+        {
+          "country": "Vietnam",
+          "demand_growth_pct": 10,
+          "price_premium": "medium"
+        },
+        {
+          "country": "EU",
+          "demand_growth_pct": 18,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 1100,
+      "est_order_qty_mt": 3.5,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 30,
+        "growth": 2.1,
+        "margin": 10.0,
+        "market_demand": 3.4,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Moringa powder",
+      "type": "export_opportunity",
+      "score": 54,
+      "margin_pct": 65,
+      "margin_flag": "green",
+      "ghana_export_usd_m": 8.0,
+      "yoy_growth_pct": 45.0,
+      "best_market": "USA",
+      "market_demand_growth_pct": 35,
+      "price_premium": "high",
+      "all_markets": [
+        {
+          "country": "USA",
+          "demand_growth_pct": 35,
+          "price_premium": "high"
+        },
+        {
+          "country": "EU",
+          "demand_growth_pct": 30,
+          "price_premium": "high"
+        },
+        {
+          "country": "Japan",
+          "demand_growth_pct": 28,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 2200,
+      "est_order_qty_mt": 1.8,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 0.8,
+        "growth": 9.4,
+        "margin": 25,
+        "market_demand": 10,
+        "budget_fit": 8.9
+      }
+    },
+    {
+      "commodity": "Ginger",
+      "type": "export_opportunity",
+      "score": 41,
+      "margin_pct": 32,
+      "margin_flag": "green",
+      "ghana_export_usd_m": 45.0,
+      "yoy_growth_pct": 25.0,
+      "best_market": "USA",
+      "market_demand_growth_pct": 22,
+      "price_premium": "high",
+      "all_markets": [
+        {
+          "country": "USA",
+          "demand_growth_pct": 22,
+          "price_premium": "high"
+        },
+        {
+          "country": "Germany",
+          "demand_growth_pct": 18,
+          "price_premium": "high"
+        },
+        {
+          "country": "Japan",
+          "demand_growth_pct": 15,
+          "price_premium": "medium"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 820,
+      "est_order_qty_mt": 4.8,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 4.5,
+        "growth": 5.2,
+        "margin": 15.0,
+        "market_demand": 6.3,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Dried fish",
+      "type": "export_opportunity",
+      "score": 37,
+      "margin_pct": 30,
+      "margin_flag": "green",
+      "ghana_export_usd_m": 62.0,
+      "yoy_growth_pct": 18.0,
+      "best_market": "Nigeria",
+      "market_demand_growth_pct": 15,
+      "price_premium": "medium",
+      "all_markets": [
+        {
+          "country": "Nigeria",
+          "demand_growth_pct": 15,
+          "price_premium": "medium"
+        },
+        {
+          "country": "Cote d Ivoire",
+          "demand_growth_pct": 12,
+          "price_premium": "medium"
+        },
+        {
+          "country": "Cameroon",
+          "demand_growth_pct": 10,
+          "price_premium": "medium"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 1600,
+      "est_order_qty_mt": 2.4,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 6.2,
+        "growth": 3.8,
+        "margin": 12.5,
+        "market_demand": 4.3,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Pineapple",
+      "type": "export_opportunity",
+      "score": 19,
+      "margin_pct": 0,
+      "margin_flag": "red",
+      "ghana_export_usd_m": 38.0,
+      "yoy_growth_pct": 12.0,
+      "best_market": "EU",
+      "market_demand_growth_pct": 8,
+      "price_premium": "medium",
+      "all_markets": [
+        {
+          "country": "EU",
+          "demand_growth_pct": 8,
+          "price_premium": "medium"
+        },
+        {
+          "country": "USA",
+          "demand_growth_pct": 10,
+          "price_premium": "medium"
+        },
+        {
+          "country": "Middle East",
+          "demand_growth_pct": 15,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 500,
+      "est_order_qty_mt": 7.8,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 3.8,
+        "growth": 2.5,
+        "margin": 0,
+        "market_demand": 2.3,
+        "budget_fit": 10
+      }
+    }
+  ],
+  "top_5_overall": [
+    {
+      "commodity": "Shea butter",
+      "type": "export_opportunity",
+      "score": 84,
+      "margin_pct": 45,
+      "margin_flag": "green",
+      "ghana_export_usd_m": 174.0,
+      "yoy_growth_pct": 116.0,
+      "best_market": "Netherlands",
+      "market_demand_growth_pct": 25,
+      "price_premium": "high",
+      "all_markets": [
+        {
+          "country": "Netherlands",
+          "demand_growth_pct": 25,
+          "price_premium": "high"
+        },
+        {
+          "country": "France",
+          "demand_growth_pct": 20,
+          "price_premium": "high"
+        },
+        {
+          "country": "South Korea",
+          "demand_growth_pct": 30,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 750,
+      "est_order_qty_mt": 5.2,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 17.5,
+        "growth": 24.2,
+        "margin": 25,
+        "market_demand": 7.1,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Rice",
+      "type": "import_opportunity",
+      "score": 70,
+      "margin_pct": 22,
+      "margin_flag": "yellow",
+      "ghana_import_usd_m": 487.0,
+      "yoy_growth_pct": 23.0,
+      "best_supplier": "India",
+      "best_price_usd_mt": 290,
+      "all_suppliers": [
+        {
+          "country": "India",
+          "price_usd_mt": 290,
+          "distance": "medium"
+        },
+        {
+          "country": "Vietnam",
+          "price_usd_mt": 310,
+          "distance": "far"
+        },
+        {
+          "country": "Thailand",
+          "price_usd_mt": 350,
+          "distance": "far"
+        }
+      ],
+      "est_order_qty_mt": 13.4,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "gap_size": 30,
+        "growth": 19.2,
+        "margin": 5.0,
+        "logistics": 6,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Poultry",
+      "type": "import_opportunity",
+      "score": 65,
+      "margin_pct": 30,
+      "margin_flag": "green",
+      "ghana_import_usd_m": 281.0,
+      "yoy_growth_pct": 18.0,
+      "best_supplier": "Brazil",
+      "best_price_usd_mt": 1800,
+      "all_suppliers": [
+        {
+          "country": "Brazil",
+          "price_usd_mt": 1800,
+          "distance": "far"
+        },
+        {
+          "country": "EU",
+          "price_usd_mt": 2100,
+          "distance": "medium"
+        },
+        {
+          "country": "USA",
+          "price_usd_mt": 1950,
+          "distance": "far"
+        }
+      ],
+      "est_order_qty_mt": 2.2,
+      "est_order_ghc": 60000,
+      "budget_fit": false,
+      "score_breakdown": {
+        "gap_size": 17.3,
+        "growth": 15.0,
+        "margin": 25,
+        "logistics": 3,
+        "budget_fit": 4.3
+      }
+    },
+    {
+      "commodity": "Cashew nuts",
+      "type": "export_opportunity",
+      "score": 56,
+      "margin_pct": 28,
+      "margin_flag": "yellow",
+      "ghana_export_usd_m": 298.0,
+      "yoy_growth_pct": 10.2,
+      "best_market": "India",
+      "market_demand_growth_pct": 12,
+      "price_premium": "medium",
+      "all_markets": [
+        {
+          "country": "India",
+          "demand_growth_pct": 12,
+          "price_premium": "medium"
+        },
+        {
+          "country": "Vietnam",
+          "demand_growth_pct": 10,
+          "price_premium": "medium"
+        },
+        {
+          "country": "EU",
+          "demand_growth_pct": 18,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 1100,
+      "est_order_qty_mt": 3.5,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 30,
+        "growth": 2.1,
+        "margin": 10.0,
+        "market_demand": 3.4,
+        "budget_fit": 10
+      }
+    },
+    {
+      "commodity": "Moringa powder",
+      "type": "export_opportunity",
+      "score": 54,
+      "margin_pct": 65,
+      "margin_flag": "green",
+      "ghana_export_usd_m": 8.0,
+      "yoy_growth_pct": 45.0,
+      "best_market": "USA",
+      "market_demand_growth_pct": 35,
+      "price_premium": "high",
+      "all_markets": [
+        {
+          "country": "USA",
+          "demand_growth_pct": 35,
+          "price_premium": "high"
+        },
+        {
+          "country": "EU",
+          "demand_growth_pct": 30,
+          "price_premium": "high"
+        },
+        {
+          "country": "Japan",
+          "demand_growth_pct": 28,
+          "price_premium": "high"
+        }
+      ],
+      "ghana_producer_price_usd_mt": 2200,
+      "est_order_qty_mt": 1.8,
+      "est_order_ghc": 60000,
+      "budget_fit": true,
+      "score_breakdown": {
+        "export_value": 0.8,
+        "growth": 9.4,
+        "margin": 25,
+        "market_demand": 10,
+        "budget_fit": 8.9
+      }
+    }
+  ],
+  "supply_demand_graph": {
+    "nodes": [
+      {
+        "id": "GHA_Shea butter",
+        "label": "Ghana\nShea butter",
+        "type": "ghana"
+      },
+      {
+        "id": "Netherlands",
+        "label": "Netherlands",
+        "type": "buyer"
+      },
+      {
+        "id": "France",
+        "label": "France",
+        "type": "buyer"
+      },
+      {
+        "id": "South Korea",
+        "label": "South Korea",
+        "type": "buyer"
+      },
+      {
+        "id": "GHA_Rice",
+        "label": "Ghana\nRice",
+        "type": "ghana"
+      },
+      {
+        "id": "India",
+        "label": "India",
+        "type": "supplier"
+      },
+      {
+        "id": "Vietnam",
+        "label": "Vietnam",
+        "type": "supplier"
+      },
+      {
+        "id": "Thailand",
+        "label": "Thailand",
+        "type": "supplier"
+      },
+      {
+        "id": "GHA_Poultry",
+        "label": "Ghana\nPoultry",
+        "type": "ghana"
+      },
+      {
+        "id": "Brazil",
+        "label": "Brazil",
+        "type": "supplier"
+      },
+      {
+        "id": "EU",
+        "label": "EU",
+        "type": "supplier"
+      },
+      {
+        "id": "USA",
+        "label": "USA",
+        "type": "supplier"
+      },
+      {
+        "id": "GHA_Cashew nuts",
+        "label": "Ghana\nCashew nuts",
+        "type": "ghana"
+      },
+      {
+        "id": "GHA_Moringa powder",
+        "label": "Ghana\nMoringa powder",
+        "type": "ghana"
+      },
+      {
+        "id": "Japan",
+        "label": "Japan",
+        "type": "buyer"
+      },
+      {
+        "id": "GHA_Vegetable oils",
+        "label": "Ghana\nVegetable oils",
+        "type": "ghana"
+      },
+      {
+        "id": "Malaysia",
+        "label": "Malaysia",
+        "type": "supplier"
+      },
+      {
+        "id": "Indonesia",
+        "label": "Indonesia",
+        "type": "supplier"
+      },
+      {
+        "id": "Senegal",
+        "label": "Senegal",
+        "type": "supplier"
+      },
+      {
+        "id": "GHA_Tomato paste",
+        "label": "Ghana\nTomato paste",
+        "type": "ghana"
+      },
+      {
+        "id": "China",
+        "label": "China",
+        "type": "supplier"
+      },
+      {
+        "id": "Turkey",
+        "label": "Turkey",
+        "type": "supplier"
+      },
+      {
+        "id": "Italy",
+        "label": "Italy",
+        "type": "supplier"
+      },
+      {
+        "id": "GHA_Ginger",
+        "label": "Ghana\nGinger",
+        "type": "ghana"
+      },
+      {
+        "id": "Germany",
+        "label": "Germany",
+        "type": "buyer"
+      },
+      {
+        "id": "GHA_Dried fish",
+        "label": "Ghana\nDried fish",
+        "type": "ghana"
+      },
+      {
+        "id": "Nigeria",
+        "label": "Nigeria",
+        "type": "buyer"
+      },
+      {
+        "id": "Cote d Ivoire",
+        "label": "Cote d Ivoire",
+        "type": "buyer"
+      },
+      {
+        "id": "Cameroon",
+        "label": "Cameroon",
+        "type": "buyer"
+      },
+      {
+        "id": "GHA_Sugar",
+        "label": "Ghana\nSugar",
+        "type": "ghana"
+      }
+    ],
+    "edges": [
+      {
+        "from": "GHA_Shea butter",
+        "to": "Netherlands",
+        "label": "+25%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Shea butter",
+        "to": "France",
+        "label": "+20%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Shea butter",
+        "to": "South Korea",
+        "label": "+30%",
+        "type": "export"
+      },
+      {
+        "from": "India",
+        "to": "GHA_Rice",
+        "label": "$290/MT",
+        "type": "import"
+      },
+      {
+        "from": "Vietnam",
+        "to": "GHA_Rice",
+        "label": "$310/MT",
+        "type": "import"
+      },
+      {
+        "from": "Thailand",
+        "to": "GHA_Rice",
+        "label": "$350/MT",
+        "type": "import"
+      },
+      {
+        "from": "Brazil",
+        "to": "GHA_Poultry",
+        "label": "$1800/MT",
+        "type": "import"
+      },
+      {
+        "from": "EU",
+        "to": "GHA_Poultry",
+        "label": "$2100/MT",
+        "type": "import"
+      },
+      {
+        "from": "USA",
+        "to": "GHA_Poultry",
+        "label": "$1950/MT",
+        "type": "import"
+      },
+      {
+        "from": "GHA_Cashew nuts",
+        "to": "India",
+        "label": "+12%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Cashew nuts",
+        "to": "Vietnam",
+        "label": "+10%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Cashew nuts",
+        "to": "EU",
+        "label": "+18%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Moringa powder",
+        "to": "USA",
+        "label": "+35%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Moringa powder",
+        "to": "EU",
+        "label": "+30%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Moringa powder",
+        "to": "Japan",
+        "label": "+28%",
+        "type": "export"
+      },
+      {
+        "from": "Malaysia",
+        "to": "GHA_Vegetable oils",
+        "label": "$820/MT",
+        "type": "import"
+      },
+      {
+        "from": "Indonesia",
+        "to": "GHA_Vegetable oils",
+        "label": "$790/MT",
+        "type": "import"
+      },
+      {
+        "from": "Senegal",
+        "to": "GHA_Vegetable oils",
+        "label": "$950/MT",
+        "type": "import"
+      },
+      {
+        "from": "China",
+        "to": "GHA_Tomato paste",
+        "label": "$650/MT",
+        "type": "import"
+      },
+      {
+        "from": "Turkey",
+        "to": "GHA_Tomato paste",
+        "label": "$780/MT",
+        "type": "import"
+      },
+      {
+        "from": "Italy",
+        "to": "GHA_Tomato paste",
+        "label": "$1100/MT",
+        "type": "import"
+      },
+      {
+        "from": "GHA_Ginger",
+        "to": "USA",
+        "label": "+22%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Ginger",
+        "to": "Germany",
+        "label": "+18%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Ginger",
+        "to": "Japan",
+        "label": "+15%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Dried fish",
+        "to": "Nigeria",
+        "label": "+15%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Dried fish",
+        "to": "Cote d Ivoire",
+        "label": "+12%",
+        "type": "export"
+      },
+      {
+        "from": "GHA_Dried fish",
+        "to": "Cameroon",
+        "label": "+10%",
+        "type": "export"
+      },
+      {
+        "from": "Brazil",
+        "to": "GHA_Sugar",
+        "label": "$380/MT",
+        "type": "import"
+      },
+      {
+        "from": "India",
+        "to": "GHA_Sugar",
+        "label": "$360/MT",
+        "type": "import"
+      },
+      {
+        "from": "Thailand",
+        "to": "GHA_Sugar",
+        "label": "$395/MT",
+        "type": "import"
+      }
+    ]
+  },
+  "summary": {
+    "total_import_opps": 6,
+    "total_export_opps": 6,
+    "green_margin_opps": 5,
+    "budget_fit_opps": 11
+  }
+}

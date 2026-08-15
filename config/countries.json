@@ -1,0 +1,20 @@
+{
+  "countries": [
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "enabled": true,
+      "sources": [
+        {"name":"Ghana Statistical Service","url":"https://statsghana.gov.gh/"},
+        {"name":"UN Comtrade","url":"https://comtradeplus.un.org/"},
+        {"name":"FAOSTAT","url":"https://www.fao.org/faostat/"},
+        {"name":"World Bank","url":"https://data.worldbank.org/country/ghana"}
+      ]
+    },
+    {"code":"NGA","name":"Nigeria","enabled":false,"sources":[]},
+    {"code":"KEN","name":"Kenya","enabled":false,"sources":[]},
+    {"code":"CIV","name":"Côte d'Ivoire","enabled":false,"sources":[]},
+    {"code":"SEN","name":"Senegal","enabled":false,"sources":[]},
+    {"code":"RWA","name":"Rwanda","enabled":false,"sources":[]}
+  ]
+}

@@ -1,0 +1,6 @@
+streamlit>=1.32
+plotly>=5.18
+pandas>=2.0
+requests>=2.31
+networkx>=3.0
+comtradeapicall>=1.0

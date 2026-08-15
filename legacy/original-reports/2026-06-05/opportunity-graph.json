@@ -1,0 +1,336 @@
+{
+  "nodes": [
+    {
+      "id": "GHA_Shea butter",
+      "label": "Ghana\nShea butter",
+      "type": "ghana"
+    },
+    {
+      "id": "Netherlands",
+      "label": "Netherlands",
+      "type": "buyer"
+    },
+    {
+      "id": "France",
+      "label": "France",
+      "type": "buyer"
+    },
+    {
+      "id": "South Korea",
+      "label": "South Korea",
+      "type": "buyer"
+    },
+    {
+      "id": "GHA_Rice",
+      "label": "Ghana\nRice",
+      "type": "ghana"
+    },
+    {
+      "id": "India",
+      "label": "India",
+      "type": "supplier"
+    },
+    {
+      "id": "Vietnam",
+      "label": "Vietnam",
+      "type": "supplier"
+    },
+    {
+      "id": "Thailand",
+      "label": "Thailand",
+      "type": "supplier"
+    },
+    {
+      "id": "GHA_Poultry",
+      "label": "Ghana\nPoultry",
+      "type": "ghana"
+    },
+    {
+      "id": "Brazil",
+      "label": "Brazil",
+      "type": "supplier"
+    },
+    {
+      "id": "EU",
+      "label": "EU",
+      "type": "supplier"
+    },
+    {
+      "id": "USA",
+      "label": "USA",
+      "type": "supplier"
+    },
+    {
+      "id": "GHA_Cashew nuts",
+      "label": "Ghana\nCashew nuts",
+      "type": "ghana"
+    },
+    {
+      "id": "GHA_Moringa powder",
+      "label": "Ghana\nMoringa powder",
+      "type": "ghana"
+    },
+    {
+      "id": "Japan",
+      "label": "Japan",
+      "type": "buyer"
+    },
+    {
+      "id": "GHA_Vegetable oils",
+      "label": "Ghana\nVegetable oils",
+      "type": "ghana"
+    },
+    {
+      "id": "Malaysia",
+      "label": "Malaysia",
+      "type": "supplier"
+    },
+    {
+      "id": "Indonesia",
+      "label": "Indonesia",
+      "type": "supplier"
+    },
+    {
+      "id": "Senegal",
+      "label": "Senegal",
+      "type": "supplier"
+    },
+    {
+      "id": "GHA_Tomato paste",
+      "label": "Ghana\nTomato paste",
+      "type": "ghana"
+    },
+    {
+      "id": "China",
+      "label": "China",
+      "type": "supplier"
+    },
+    {
+      "id": "Turkey",
+      "label": "Turkey",
+      "type": "supplier"
+    },
+    {
+      "id": "Italy",
+      "label": "Italy",
+      "type": "supplier"
+    },
+    {
+      "id": "GHA_Ginger",
+      "label": "Ghana\nGinger",
+      "type": "ghana"
+    },
+    {
+      "id": "Germany",
+      "label": "Germany",
+      "type": "buyer"
+    },
+    {
+      "id": "GHA_Dried fish",
+      "label": "Ghana\nDried fish",
+      "type": "ghana"
+    },
+    {
+      "id": "Nigeria",
+      "label": "Nigeria",
+      "type": "buyer"
+    },
+    {
+      "id": "Cote d Ivoire",
+      "label": "Cote d Ivoire",
+      "type": "buyer"
+    },
+    {
+      "id": "Cameroon",
+      "label": "Cameroon",
+      "type": "buyer"
+    },
+    {
+      "id": "GHA_Sugar",
+      "label": "Ghana\nSugar",
+      "type": "ghana"
+    }
+  ],
+  "edges": [
+    {
+      "from": "GHA_Shea butter",
+      "to": "Netherlands",
+      "label": "+25%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Shea butter",
+      "to": "France",
+      "label": "+20%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Shea butter",
+      "to": "South Korea",
+      "label": "+30%",
+      "type": "export"
+    },
+    {
+      "from": "India",
+      "to": "GHA_Rice",
+      "label": "$290/MT",
+      "type": "import"
+    },
+    {
+      "from": "Vietnam",
+      "to": "GHA_Rice",
+      "label": "$310/MT",
+      "type": "import"
+    },
+    {
+      "from": "Thailand",
+      "to": "GHA_Rice",
+      "label": "$350/MT",
+      "type": "import"
+    },
+    {
+      "from": "Brazil",
+      "to": "GHA_Poultry",
+      "label": "$1800/MT",
+      "type": "import"
+    },
+    {
+      "from": "EU",
+      "to": "GHA_Poultry",
+      "label": "$2100/MT",
+      "type": "import"
+    },
+    {
+      "from": "USA",
+      "to": "GHA_Poultry",
+      "label": "$1950/MT",
+      "type": "import"
+    },
+    {
+      "from": "GHA_Cashew nuts",
+      "to": "India",
+      "label": "+12%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Cashew nuts",
+      "to": "Vietnam",
+      "label": "+10%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Cashew nuts",
+      "to": "EU",
+      "label": "+18%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Moringa powder",
+      "to": "USA",
+      "label": "+35%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Moringa powder",
+      "to": "EU",
+      "label": "+30%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Moringa powder",
+      "to": "Japan",
+      "label": "+28%",
+      "type": "export"
+    },
+    {
+      "from": "Malaysia",
+      "to": "GHA_Vegetable oils",
+      "label": "$820/MT",
+      "type": "import"
+    },
+    {
+      "from": "Indonesia",
+      "to": "GHA_Vegetable oils",
+      "label": "$790/MT",
+      "type": "import"
+    },
+    {
+      "from": "Senegal",
+      "to": "GHA_Vegetable oils",
+      "label": "$950/MT",
+      "type": "import"
+    },
+    {
+      "from": "China",
+      "to": "GHA_Tomato paste",
+      "label": "$650/MT",
+      "type": "import"
+    },
+    {
+      "from": "Turkey",
+      "to": "GHA_Tomato paste",
+      "label": "$780/MT",
+      "type": "import"
+    },
+    {
+      "from": "Italy",
+      "to": "GHA_Tomato paste",
+      "label": "$1100/MT",
+      "type": "import"
+    },
+    {
+      "from": "GHA_Ginger",
+      "to": "USA",
+      "label": "+22%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Ginger",
+      "to": "Germany",
+      "label": "+18%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Ginger",
+      "to": "Japan",
+      "label": "+15%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Dried fish",
+      "to": "Nigeria",
+      "label": "+15%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Dried fish",
+      "to": "Cote d Ivoire",
+      "label": "+12%",
+      "type": "export"
+    },
+    {
+      "from": "GHA_Dried fish",
+      "to": "Cameroon",
+      "label": "+10%",
+      "type": "export"
+    },
+    {
+      "from": "Brazil",
+      "to": "GHA_Sugar",
+      "label": "$380/MT",
+      "type": "import"
+    },
+    {
+      "from": "India",
+      "to": "GHA_Sugar",
+      "label": "$360/MT",
+      "type": "import"
+    },
+    {
+      "from": "Thailand",
+      "to": "GHA_Sugar",
+      "label": "$395/MT",
+      "type": "import"
+    }
+  ]
+}
